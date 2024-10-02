@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Nur für LEA Abgabe wichtig ###
+Loesung_URLs*.txt
