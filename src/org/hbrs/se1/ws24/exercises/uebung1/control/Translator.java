@@ -9,7 +9,7 @@ package org.hbrs.se1.ws24.exercises.uebung1.control;
  *
  */
 
-interface Translator {
+public interface Translator {
 	
 	double version = 1.0; // Version des Interface
 	

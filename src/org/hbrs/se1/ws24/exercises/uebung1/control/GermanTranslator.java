@@ -9,8 +9,27 @@ public class GermanTranslator implements Translator {
 	 */
 	public String translateNumber( int number ) {
 		// [ihr Source Code aus Übung 1-2]
-
-		return "null";
+		// gültige Zahlen im Interval [1,10]
+		if (number < 1 || number > 10) {
+			return "Übersetzung der Zahl " +
+					number +
+					" nicht möglich (Translator Version " + version + ")";
+		}
+		String[] translations = {
+			"eins",
+			"zwei",
+			"drei",
+			"vier",
+			"fünf",
+			"sechs",
+			"sieben",
+			"acht",
+			"neun",
+			"zehn"
+		};
+		// number -1 because valid number translations from numbers 1-10
+		// in array start at index 0
+		return translations[number-1];
 	}
 
 	/**
