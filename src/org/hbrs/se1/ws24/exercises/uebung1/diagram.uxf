@@ -87,7 +87,7 @@ _+ createGermanTranslator(): GermanTranslator_</panel_attributes>
     <coordinates>
       <x>1035</x>
       <y>558</y>
-      <w>171</w>
+      <w>144</w>
       <h>198</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -124,86 +124,25 @@ instantiates</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>495</x>
-      <y>306</y>
+      <y>288</y>
       <w>162</w>
-      <h>252</h>
+      <h>270</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
-    <additional_attributes>10.0;260.0;10.0;10.0;160.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>495</x>
-      <y>315</y>
-      <w>162</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>495</x>
-      <y>333</y>
-      <w>162</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+    <additional_attributes>10.0;280.0;10.0;10.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>945</x>
-      <y>306</y>
+      <y>288</y>
       <w>342</w>
-      <h>468</h>
+      <h>486</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
-    <additional_attributes>120.0;500.0;360.0;500.0;360.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>945</x>
-      <y>315</y>
-      <w>342</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>360.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>945</x>
-      <y>333</y>
-      <w>342</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>360.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>774</x>
-      <y>216</y>
-      <w>45</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=)-
-
-</panel_attributes>
-    <additional_attributes>20.0;20.0;20.0;70.0</additional_attributes>
+    <additional_attributes>120.0;520.0;360.0;520.0;360.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
@@ -219,14 +158,12 @@ instantiates</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>783</x>
+      <x>792</x>
       <y>171</y>
       <w>27</w>
-      <h>63</h>
+      <h>126</h>
     </coordinates>
-    <panel_attributes>lt=-()
-
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
 </diagram>
