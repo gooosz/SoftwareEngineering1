@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>9</zoom_level>
+  <zoom_level>12</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>351</x>
-      <y>540</y>
-      <w>342</w>
-      <h>90</h>
+      <x>36</x>
+      <y>612</y>
+      <w>456</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 Translator
 --
-+ version: double
+/_+ version: double_/
 --
-+ translateNumber(number: int): String</panel_attributes>
+/_+ translateNumber(number: int): String_/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>774</x>
-      <y>549</y>
-      <w>270</w>
-      <h>81</h>
+      <x>600</x>
+      <y>624</y>
+      <w>360</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>GermanTranslator
 --
@@ -36,10 +36,10 @@ Translator
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>558</y>
-      <w>108</w>
-      <h>27</h>
+      <x>480</x>
+      <y>636</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
@@ -47,23 +47,23 @@ Translator
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>639</x>
-      <y>702</y>
-      <w>414</w>
-      <h>72</h>
+      <x>420</x>
+      <y>828</y>
+      <w>552</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>TranslatorFactory
 --
-_+ createGermanTranslator(): GermanTranslator_</panel_attributes>
+_+ createGermanTranslator(): Translator_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>684</y>
-      <w>207</w>
-      <h>54</h>
+      <x>48</x>
+      <y>804</y>
+      <w>276</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Client
 --
@@ -73,10 +73,10 @@ _+ createGermanTranslator(): GermanTranslator_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>702</y>
-      <w>99</w>
-      <h>36</h>
+      <x>312</x>
+      <y>828</y>
+      <w>132</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
@@ -85,10 +85,10 @@ _+ createGermanTranslator(): GermanTranslator_</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1035</x>
-      <y>558</y>
-      <w>144</w>
-      <h>198</h>
+      <x>948</x>
+      <y>636</y>
+      <w>192</w>
+      <h>264</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 instantiates</panel_attributes>
@@ -97,10 +97,10 @@ instantiates</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>459</x>
-      <y>621</y>
-      <w>27</w>
-      <h>81</h>
+      <x>180</x>
+      <y>720</y>
+      <w>36</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -108,10 +108,10 @@ instantiates</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>639</x>
-      <y>279</y>
-      <w>315</w>
-      <h>108</h>
+      <x>420</x>
+      <y>264</y>
+      <w>420</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>GermanTranslatorTest
 --
@@ -123,10 +123,10 @@ instantiates</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
-      <y>288</y>
-      <w>162</w>
-      <h>270</h>
+      <x>228</x>
+      <y>276</y>
+      <w>216</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
@@ -135,35 +135,25 @@ instantiates</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>288</y>
-      <w>342</w>
-      <h>486</h>
+      <x>828</x>
+      <y>276</y>
+      <w>456</w>
+      <h>648</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
     <additional_attributes>120.0;520.0;360.0;520.0;360.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLPackage</id>
-    <coordinates>
-      <x>684</x>
-      <y>117</y>
-      <w>243</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>org.junit.jupiter.api</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
-      <y>171</y>
-      <w>27</w>
-      <h>126</h>
+      <x>444</x>
+      <y>720</y>
+      <w>72</w>
+      <h>132</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;90.0</additional_attributes>
   </element>
 </diagram>
