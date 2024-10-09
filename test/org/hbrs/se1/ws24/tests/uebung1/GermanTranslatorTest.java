@@ -31,6 +31,14 @@ public class GermanTranslatorTest {
      *    Methoden
      * ----------------
      *
+     * static:      unterstrichen   (umlet: _method_)
+     * abstract:    italics         (umlet: /method/)
+     * public:      +
+     * private:     -
+     * protected:   #
+     * durchgezogener Pfeil mit weißem Dreieck: Vererbung
+     * gestrichelter  Pfeil mit weißem Dreieck: implements
+     * gestrichelter  Pfeil mit ^ als Dreieck:  benutzt, Dependency
     */
 
     @Test

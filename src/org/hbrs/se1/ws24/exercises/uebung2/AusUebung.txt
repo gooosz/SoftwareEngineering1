@@ -1,0 +1,8 @@
+- Cheatsheet zu Aktivitätsdiagramm in LEA
+- Sequenzen, Parallel, Join, Fork, Decision,
+	Merge, Iteration (aufpassen nicht ausversehen Deadlock durch implizites AND bauen)
+- Zustandsdiagramm machen, dann kann man einfach für
+	jeden Zustand einen Test schreiben
+
+Für Klausur: UML Spezifikation (wie was aussieht) aus Vorlesung (Buch UML Glasklar 2) verwenden
+
