@@ -4,7 +4,7 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>0</y>
       <w>18</w>
       <h>18</h>
@@ -15,7 +15,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>774</x>
+      <x>630</x>
       <y>63</y>
       <w>234</w>
       <h>72</h>
@@ -27,7 +27,7 @@ erstellt Fachfeinkonzept</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>9</y>
       <w>27</w>
       <h>72</h>
@@ -38,7 +38,7 @@ erstellt Fachfeinkonzept</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>801</x>
+      <x>657</x>
       <y>252</y>
       <w>180</w>
       <h>72</h>
@@ -49,7 +49,7 @@ erstellt Fachfeinkonzept</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>801</x>
+      <x>657</x>
       <y>378</y>
       <w>180</w>
       <h>72</h>
@@ -61,7 +61,7 @@ Dokumente auf</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>801</x>
+      <x>657</x>
       <y>504</y>
       <w>180</w>
       <h>72</h>
@@ -75,7 +75,7 @@ ablegen</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>441</y>
       <w>27</w>
       <h>81</h>
@@ -86,7 +86,7 @@ ablegen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1089</x>
+      <x>945</x>
       <y>504</y>
       <w>207</w>
       <h>72</h>
@@ -98,7 +98,7 @@ benachrichtigen</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>972</x>
+      <x>828</x>
       <y>531</y>
       <w>135</w>
       <h>27</h>
@@ -109,7 +109,7 @@ benachrichtigen</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>315</y>
       <w>27</w>
       <h>81</h>
@@ -120,7 +120,7 @@ benachrichtigen</panel_attributes>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>846</x>
+      <x>702</x>
       <y>621</y>
       <w>90</w>
       <h>18</h>
@@ -132,7 +132,7 @@ Review Start}</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>639</x>
+      <x>495</x>
       <y>711</y>
       <w>126</w>
       <h>72</h>
@@ -144,7 +144,7 @@ Kunde</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>828</x>
+      <x>684</x>
       <y>711</y>
       <w>126</w>
       <h>72</h>
@@ -157,7 +157,7 @@ Gutachter</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1017</x>
+      <x>873</x>
       <y>711</y>
       <w>126</w>
       <h>72</h>
@@ -169,7 +169,7 @@ IT-Leiter</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>873</x>
+      <x>729</x>
       <y>567</y>
       <w>27</w>
       <h>81</h>
@@ -180,7 +180,7 @@ IT-Leiter</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>621</y>
       <w>27</w>
       <h>108</h>
@@ -191,7 +191,7 @@ IT-Leiter</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
+      <x>549</x>
       <y>621</y>
       <w>189</w>
       <h>108</h>
@@ -202,7 +202,7 @@ IT-Leiter</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>909</x>
+      <x>765</x>
       <y>621</y>
       <w>189</w>
       <h>108</h>
@@ -213,7 +213,7 @@ IT-Leiter</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>639</x>
+      <x>495</x>
       <y>828</y>
       <w>126</w>
       <h>72</h>
@@ -226,7 +226,7 @@ an PMO
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>828</x>
+      <x>684</x>
       <y>828</y>
       <w>126</w>
       <h>72</h>
@@ -239,7 +239,7 @@ an PMO
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1017</x>
+      <x>873</x>
       <y>828</y>
       <w>126</w>
       <h>72</h>
@@ -252,7 +252,7 @@ an PMO
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
+      <x>549</x>
       <y>774</y>
       <w>27</w>
       <h>72</h>
@@ -263,7 +263,7 @@ an PMO
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>774</y>
       <w>27</w>
       <h>72</h>
@@ -274,7 +274,7 @@ an PMO
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1071</x>
+      <x>927</x>
       <y>774</y>
       <w>27</w>
       <h>72</h>
@@ -285,7 +285,7 @@ an PMO
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>846</x>
+      <x>702</x>
       <y>972</y>
       <w>90</w>
       <h>18</h>
@@ -297,7 +297,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>891</y>
       <w>27</w>
       <h>108</h>
@@ -308,7 +308,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>909</x>
+      <x>765</x>
       <y>891</y>
       <w>189</w>
       <h>108</h>
@@ -319,7 +319,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
+      <x>549</x>
       <y>891</y>
       <w>189</w>
       <h>108</h>
@@ -330,7 +330,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>972</y>
       <w>27</w>
       <h>81</h>
@@ -341,7 +341,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>801</x>
+      <x>657</x>
       <y>1035</y>
       <w>180</w>
       <h>72</h>
@@ -353,7 +353,7 @@ Gesamtbewertung aus</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
+      <x>756</x>
       <y>567</y>
       <w>297</w>
       <h>81</h>
@@ -364,7 +364,7 @@ Gesamtbewertung aus</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>873</x>
+      <x>729</x>
       <y>1161</y>
       <w>36</w>
       <h>36</h>
@@ -376,7 +376,7 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>1098</y>
       <w>27</w>
       <h>81</h>
@@ -387,21 +387,21 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>567</x>
+      <x>450</x>
       <y>189</y>
-      <w>324</w>
+      <w>297</w>
       <h>1224</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=[kritische Fehler]</panel_attributes>
-    <additional_attributes>340.0;10.0;40.0;10.0;40.0;1340.0;200.0;1340.0</additional_attributes>
+    <additional_attributes>310.0;10.0;10.0;10.0;10.0;1340.0;170.0;1340.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>774</x>
+      <x>630</x>
       <y>1296</y>
-      <w>243</w>
+      <w>189</w>
       <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -411,9 +411,9 @@ m2=[wenig kritische Fehler]\n[zeitlich dringend]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
+      <x>756</x>
       <y>1170</y>
-      <w>153</w>
+      <w>117</w>
       <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -423,7 +423,7 @@ m2=[keine Fehler]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>675</x>
+      <x>531</x>
       <y>1251</y>
       <w>180</w>
       <h>72</h>
@@ -436,7 +436,7 @@ Fachfeinkonzept</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>126</y>
       <w>27</w>
       <h>72</h>
@@ -447,7 +447,7 @@ Fachfeinkonzept</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>747</x>
+      <x>603</x>
       <y>1377</y>
       <w>36</w>
       <h>36</h>
@@ -459,7 +459,7 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
+      <x>612</x>
       <y>1314</y>
       <w>27</w>
       <h>81</h>
@@ -470,19 +470,19 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
-      <y>1161</y>
-      <w>189</w>
-      <h>108</h>
+      <x>603</x>
+      <y>1170</y>
+      <w>144</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=[Fehler entdeckt]</panel_attributes>
-    <additional_attributes>70.0;100.0;190.0;20.0</additional_attributes>
+    <additional_attributes>20.0;90.0;140.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1026</x>
+      <x>882</x>
       <y>1251</y>
       <w>180</w>
       <h>72</h>
@@ -495,7 +495,7 @@ offener Punkte vor</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>873</x>
+      <x>729</x>
       <y>180</y>
       <w>36</w>
       <h>36</h>
@@ -507,7 +507,7 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>207</y>
       <w>27</w>
       <h>63</h>
@@ -518,7 +518,7 @@ type=decision</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1287</x>
+      <x>1143</x>
       <y>1251</y>
       <w>180</w>
       <h>72</h>
@@ -532,7 +532,7 @@ aus</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1197</x>
+      <x>1053</x>
       <y>1278</y>
       <w>108</w>
       <h>27</h>
@@ -543,7 +543,7 @@ aus</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1314</y>
       <w>27</w>
       <h>72</h>
@@ -554,7 +554,7 @@ aus</panel_attributes>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>1332</x>
+      <x>1188</x>
       <y>1359</y>
       <w>90</w>
       <h>18</h>
@@ -566,7 +566,7 @@ Review Start}</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1098</x>
+      <x>954</x>
       <y>1449</y>
       <w>153</w>
       <h>72</h>
@@ -579,7 +579,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1296</x>
+      <x>1152</x>
       <y>1449</y>
       <w>162</w>
       <h>72</h>
@@ -592,7 +592,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1503</x>
+      <x>1359</x>
       <y>1449</y>
       <w>162</w>
       <h>72</h>
@@ -605,7 +605,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1359</y>
       <w>27</w>
       <h>108</h>
@@ -616,7 +616,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1161</x>
+      <x>1017</x>
       <y>1359</y>
       <w>207</w>
       <h>108</h>
@@ -627,7 +627,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1395</x>
+      <x>1251</x>
       <y>1359</y>
       <w>189</w>
       <h>108</h>
@@ -638,7 +638,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1161</x>
+      <x>1017</x>
       <y>1512</y>
       <w>207</w>
       <h>108</h>
@@ -649,7 +649,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1512</y>
       <w>27</w>
       <h>108</h>
@@ -660,7 +660,7 @@ Abnahmeprotokoll</panel_attributes>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>1332</x>
+      <x>1188</x>
       <y>1593</y>
       <w>90</w>
       <h>18</h>
@@ -672,7 +672,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1593</y>
       <w>27</w>
       <h>81</h>
@@ -683,7 +683,7 @@ Review Ende}</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1287</x>
+      <x>1143</x>
       <y>1656</y>
       <w>180</w>
       <h>54</h>
@@ -695,7 +695,7 @@ Implementierung ein</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1395</x>
+      <x>1251</x>
       <y>1512</y>
       <w>189</w>
       <h>108</h>
@@ -706,7 +706,7 @@ Implementierung ein</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>927</x>
+      <x>783</x>
       <y>1269</y>
       <w>36</w>
       <h>36</h>
@@ -718,7 +718,7 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>954</x>
+      <x>810</x>
       <y>1278</y>
       <w>90</w>
       <h>27</h>
@@ -729,7 +729,7 @@ type=decision</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1755</y>
       <w>18</w>
       <h>18</h>
@@ -740,12 +740,24 @@ type=decision</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
+      <x>1224</x>
       <y>1701</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>873</x>
+      <y>1341</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Abnahme
+ohne Vorbehalt</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
