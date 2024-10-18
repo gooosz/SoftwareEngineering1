@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/.2024-10-12-Note-13-53.autosave.xopp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung2/.~lock.TemplateTestCase v1.6.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung2/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +42,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.GermanTranslatorTest.aTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.GermanTranslatorTest.testGreaterThanValidRange.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.GermanTranslatorTest.testLessThanValidRange.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.GermanTranslatorTest.testValidTranslation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestContainer (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testAddMember_success.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testAddMember_throws.executor&quot;: &quot;Run&quot;,
@@ -52,7 +57,11 @@
     &quot;JUnit.TestContainer.testDump_emptyList.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testDump_nonEmptyList.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testNoMemberInList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestContainer.testNoPersistanceStrategySet.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testOneMemberInList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestContainer.testPeristanceStrategyMongoDBNotImplementedYet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestContainer.testPersistanceStreamWrongDirectory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestContainer.testRoundTrip.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testSize.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestContainer.testTwoMemberInList.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
@@ -83,100 +92,100 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestContainer">
-    <configuration name="TestContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestContainer (1)">
+    <configuration name="TestContainer (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.TestContainer" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.TestContainer" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContainer.testDump_nonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContainer.testNoPersistanceStrategySet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.TestContainer" />
-      <option name="METHOD_NAME" value="testDump_nonEmptyList" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.TestContainer" />
+      <option name="METHOD_NAME" value="testNoPersistanceStrategySet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContainer.testNoMemberInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContainer.testPeristanceStrategyMongoDBNotImplementedYet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.TestContainer" />
-      <option name="METHOD_NAME" value="testNoMemberInList" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.TestContainer" />
+      <option name="METHOD_NAME" value="testPeristanceStrategyMongoDBNotImplementedYet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContainer.testOneMemberInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContainer.testPersistanceStreamWrongDirectory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.TestContainer" />
-      <option name="METHOD_NAME" value="testOneMemberInList" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.TestContainer" />
+      <option name="METHOD_NAME" value="testPersistanceStreamWrongDirectory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestContainer.testTwoMemberInList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContainer.testRoundTrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.TestContainer" />
-      <option name="METHOD_NAME" value="testTwoMemberInList" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.TestContainer" />
+      <option name="METHOD_NAME" value="testRoundTrip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestContainer" />
-      <item itemvalue="JUnit.TestContainer.testNoMemberInList" />
-      <item itemvalue="JUnit.TestContainer.testOneMemberInList" />
-      <item itemvalue="JUnit.TestContainer.testTwoMemberInList" />
-      <item itemvalue="JUnit.TestContainer.testDump_nonEmptyList" />
+      <item itemvalue="JUnit.TestContainer (1)" />
+      <item itemvalue="JUnit.TestContainer.testNoPersistanceStrategySet" />
+      <item itemvalue="JUnit.TestContainer.testPeristanceStrategyMongoDBNotImplementedYet" />
+      <item itemvalue="JUnit.TestContainer.testPersistanceStreamWrongDirectory" />
+      <item itemvalue="JUnit.TestContainer.testRoundTrip" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestContainer" />
-        <item itemvalue="JUnit.TestContainer.testTwoMemberInList" />
-        <item itemvalue="JUnit.TestContainer.testOneMemberInList" />
-        <item itemvalue="JUnit.TestContainer.testNoMemberInList" />
-        <item itemvalue="JUnit.TestContainer.testDump_nonEmptyList" />
+        <item itemvalue="JUnit.TestContainer (1)" />
+        <item itemvalue="JUnit.TestContainer.testRoundTrip" />
+        <item itemvalue="JUnit.TestContainer.testNoPersistanceStrategySet" />
+        <item itemvalue="JUnit.TestContainer.testPersistanceStreamWrongDirectory" />
+        <item itemvalue="JUnit.TestContainer.testPeristanceStrategyMongoDBNotImplementedYet" />
       </list>
     </recent_temporary>
   </component>
