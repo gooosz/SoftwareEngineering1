@@ -1,5 +1,6 @@
 package org.hbrs.se1.ws24.exercises.uebung3.persistence;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ import java.util.List;
  * Strategy Design Pattern (GoF).
  *
  */
-public interface PersistenceStrategy<E> {
+public interface PersistenceStrategy<E> extends Serializable {
     public void save(List<E> member) throws PersistenceException;
     public List<E> load() throws PersistenceException;
 }
