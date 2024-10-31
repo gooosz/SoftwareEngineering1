@@ -1,11 +1,7 @@
-package org.hbrs.se1.ws24.tests.uebung4;
+package org.hbrs.se1.ws24.exercises.uebung4;
 
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategyStream;
-import org.hbrs.se1.ws24.exercises.uebung4.UserStory;
-import org.hbrs.se1.ws24.exercises.uebung4.Container;
-import org.hbrs.se1.ws24.exercises.uebung4.UserStoryException;
-import org.hbrs.se1.ws24.exercises.uebung4.UserStoryView;
 
 import java.util.Scanner;
 
