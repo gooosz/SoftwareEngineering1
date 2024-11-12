@@ -1,0 +1,41 @@
+F1:
+- Strategie fürs Anlegen der Klasse ist sinnvoll,
+  vlt wäre gut Container als generic zu implementieren, falls z.B später Epics dazukommen sollen
+- Singleton ist thread-safe weil static und direkt initialisiert wird
+  und als Singleton wird nur ein Objekt benutzt daher keine Nebenläufigkeit
+- Constructor sollte als Singleton private sein
+- sinnvoll wenn alle UserStories in dem Programm gespeichert werden sollen
+- Speicherbedarf: mit jedem Programmstart wird Container geladen (mit allen UserStories) => hoher Speicherbedarf obwohl evtl nicht gebraucht
+
+F2:
+- Container sollte nicht Eingabe etc beinhalten, Anti-Pattern: Container ist God-Class (kann alles)
+- besser wäre Main Klasse die Eingabe fürs Programm erkennt und Container Objekt aufruft
+  für Single Responsibility pro Klasse
+  (Container nur fürs Speichern, Main nur für Program Ablauf, etc.)
+
+F3:
+- store klappt nicht weil die Elemente der Liste (UserStory) nicht Serializable sind
+- in store wird UserStory auf feste ID gesetzt, wirft Fehler weil mehrere UserStories dann gleiche ID haben
+- Begrüßung wird immer wiederholt weil sie in der while(true) Schleife steht anstatt davor
+- Exception wird nicht behandelt, sollte behandelt werden
+
+F4:
+- sortieren nach Attributen möglich (List.sort mit Comparator)
+- UserStory Klasse fehlt die Attribute Aufwand,Risiko,Strafe,Story Points um Priorität berechnen zu können
+
+F5:
+- list.stream().filter(x -> x.projekt() == projektname)
+
+F6:
+- Design Pattern:	Model	(Klasse die Zustand/Entität ist)
+					View	(was Anwender gezeigt wird)
+					Control	(Steuerung/Bedienungs Klassen, für Kontrollfluss)
+	
+- z.B. Packages um sinnvoll zu sortieren nach Aufgabe:
+	Programm	(Main)
+	UserStory	(UserStory, UserStoryException)
+	Storage		(Container)
+
+F7:
+- Exceptions in main werfen ist nicht schön, sollten vorher behandelt werden
+- der 1. der für das Problem verantwortlich/zuständig ist sollte es behandeln

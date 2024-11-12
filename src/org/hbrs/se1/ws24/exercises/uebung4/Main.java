@@ -26,8 +26,8 @@ public class Main {
 		System.out.println("ManUs - Manage User Stories");
 		System.out.println("Enter command...");
 		while (isRunning) {
-			String befehl = stdin.nextLine();
-			switch (befehl) {
+			String[] befehl = stdin.nextLine().split(" ");
+			switch (befehl[0]) {
 				case "enter" -> {
 					UserStory story = createUserStoryFromInput();
 					container.addMember(story);
@@ -42,8 +42,16 @@ public class Main {
 				case "load" -> {
 					container.load();
 				}
+				// TODO: dump projekt name gibt nur Projekte aus die zum Projekt gehören
 				case "dump" -> {
-					UserStoryView.dump(container.getCurrentList());
+					if (befehl.length >= 3 && befehl[1].equals("projekt")) {
+						// dump only projekt user stories
+						UserStoryView.dump(container.getCurrentList(),
+											x -> x.getProjektZuordnung().equals(befehl[2]));
+					} else {
+						// dump all
+						UserStoryView.dump(container.getCurrentList());
+					}
 				}
 				case "exit" -> {
 					// store persistently
