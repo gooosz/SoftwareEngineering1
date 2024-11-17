@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/objects.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +65,11 @@
     "JUnit.TestContainer.testRoundTrip.executor": "Run",
     "JUnit.TestContainer.testSize.executor": "Run",
     "JUnit.TestContainer.testTwoMemberInList.executor": "Run",
+    "JUnit.TestUserStory.executor": "Run",
     "JUnit.TestUserStory.testCalculatePriority.executor": "Run",
     "JUnit.TestUserStory.testConstructorCorrectValuesForPriority.executor": "Run",
     "JUnit.TestUserStory.testConstructorThrowsWrongValuesForPriority.executor": "Run",
+    "JUnit.TestUserStoryView.executor": "Run",
     "JUnit.TestUserStoryView.testDumpAll.executor": "Run",
     "JUnit.TestUserStoryView.testPredicate.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -116,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung4.Main" />
-      <module name="codesSE2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.hbrs.se1.ws24.exercises.uebung4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.exercises.uebung4.Main" />
       <module name="codesSE2024" />
@@ -142,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserStory.testCalculatePriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -151,14 +140,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung4" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung4.TestUserStory" />
-      <option name="METHOD_NAME" value="testCalculatePriority" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung4.TestContainer" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserStory.testConstructorThrowsWrongValuesForPriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUserStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
@@ -168,8 +156,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung4" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung4.TestUserStory" />
-      <option name="METHOD_NAME" value="testConstructorThrowsWrongValuesForPriority" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserStoryView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung4" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung4.TestUserStoryView" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,17 +179,17 @@
     <list>
       <item itemvalue="Application.Container" />
       <item itemvalue="Application.org.hbrs.se1.ws24.exercises.uebung4.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestUserStory.testCalculatePriority" />
-      <item itemvalue="JUnit.TestUserStory.testConstructorThrowsWrongValuesForPriority" />
+      <item itemvalue="JUnit.TestContainer" />
+      <item itemvalue="JUnit.TestUserStory" />
+      <item itemvalue="JUnit.TestUserStoryView" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.hbrs.se1.ws24.exercises.uebung4.Main" />
+        <item itemvalue="JUnit.TestUserStoryView" />
+        <item itemvalue="JUnit.TestUserStory" />
+        <item itemvalue="JUnit.TestContainer" />
         <item itemvalue="Application.Container" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestUserStory.testCalculatePriority" />
-        <item itemvalue="JUnit.TestUserStory.testConstructorThrowsWrongValuesForPriority" />
       </list>
     </recent_temporary>
   </component>

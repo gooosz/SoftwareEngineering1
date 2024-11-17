@@ -1,0 +1,36 @@
+Oberste Stichpunkte:
+- Stakeholder
+- Hauptziele
+- Vorteile durch Software für Endanwender
+- funktionale Anforderungen
+- nichtfunktionale Anforderungen
+
+User Stories sind nicht immer independant
+Akzeptanzkriterien werden funktional definiert,
+also User Story wird akzeptiert wenn bestimmte Handlungen/Szenarien funktionieren
+
+Anforderungen/User Stories werden unabhängig von verwendeter Technologie definiert (nicht zu technisch schreiben)
+Negotiable: User Stories sollten bisschen schwammig formuliert werden weil z.b verwendete Technologie noch garnicht bekannt ist
+Estimatable: ist der Aufwand von User Story schätzbar?
+Small: einzelne Funktionalität in kleinem Rahmen, die man schnell abhaken kann
+Testable: ist die User Story testbar? Man muss Rahmen z.b. festlegen
+In User Story muss erkennbar sein warum die Schätzungen so sind, z.b. warum ist Mehrwert hoch?
+
+Command Pattern:
+- Interface für Commands mit Methode execute(), evtl undo()
+- Klasse pro Command die Interface implementiert
+- In Main wird HashMap<String,CommandInterface> gemacht mit
+	key command string und value die Command Klasse die den Command implementiert
+	map.add(str, new Command());
+	String readCommand = ...
+	map.get(readCommand).execute(); oder besser getOrDefault(readCommand, new defaultCommand()).execute;
+	machen
+- bei mehreren Params die dem Command übergeben werden sollen
+	kann bei execute(String... params) mitgegeben werden
+- weiter evtl Stack von Command Klassen für history von commands zu haben
+	und darauf evtl pop + undo aufzurufen
+	=> aufpassen weil mehrere Referenzen zu gleichem Object im Stack gespeichert werden könnten
+	   und bei löschen dann null pointer im Stack liegen,
+	   besser: stack.push(command.clone())
+
+	

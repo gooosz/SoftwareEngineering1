@@ -19,7 +19,15 @@ public class Main {
 		// load container members from last program execution
 		container.load();
 
-		nextUserStoryID = 1;	// free id for next user story
+		nextUserStoryID = 1;	// free id for next user story, load from last time
+		if (container.getCurrentList().size() == 0) {
+			nextUserStoryID = 1;
+		} else {
+			// last element of container has highest id, so nextFreeID is that +1
+			UserStory latestAdded = container.getCurrentList().getLast();
+			nextUserStoryID = latestAdded.getID()+1;
+		}
+
 
 		stdin = new Scanner(System.in);
 		boolean isRunning = true;
