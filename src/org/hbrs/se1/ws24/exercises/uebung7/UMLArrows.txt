@@ -1,0 +1,12 @@
+gestrichelte Pfeile sind Implementierung
+durchgezogen ist Aggregation
+
+In Sequenzdiagramm:
+gestrichelt ist Rückgabe
+durchgezogen ist Methodenaufruf
+
+synchrone Interaktion:
+- Jeder Interaktion mit Pfeil (Methodenaufruf) muss geschlossen werden
+	=> return Pfeil
+
+X am Ende von Lebenslinie nur wenn explizit gefordert

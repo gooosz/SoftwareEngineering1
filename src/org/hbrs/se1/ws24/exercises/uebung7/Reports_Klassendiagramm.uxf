@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>7</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>735</x>
-      <y>140</y>
-      <w>98</w>
-      <h>21</h>
+      <x>891</x>
+      <y>144</y>
+      <w>126</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>CompanyReport</panel_attributes>
     <additional_attributes/>
@@ -15,24 +15,25 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
-      <y>140</y>
-      <w>105</w>
-      <h>49</h>
+      <x>594</x>
+      <y>144</y>
+      <w>135</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>SkillReport
 --
-studentID: int
-reportID: int</panel_attributes>
+studentID: Integer
+reportID: Integer
+skill: String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
-      <y>63</y>
-      <w>77</w>
-      <h>35</h>
+      <x>756</x>
+      <y>45</y>
+      <w>99</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 Report</panel_attributes>
@@ -41,43 +42,45 @@ Report</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>595</x>
-      <y>280</y>
-      <w>182</w>
-      <h>98</h>
+      <x>711</x>
+      <y>324</y>
+      <w>234</w>
+      <h>126</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
 Publisher
 --
 consumer: List&lt;Consumer&gt;
 --
-produce()
+/produce()/
 registriere(c: Consumer)
-deregistriere(c: Consumer)</panel_attributes>
+deregistriere(c: Consumer)
+notify(id: Integer, topic: String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>455</x>
-      <y>448</y>
-      <w>203</w>
-      <h>63</h>
+      <x>531</x>
+      <y>540</y>
+      <w>261</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>SkillReportPublisher
 --
 reports: List&lt;SkillReport&gt;
 --
-produce()</panel_attributes>
+produce()
+getReport(id: Integer): Report</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>686</x>
-      <y>448</y>
-      <w>217</w>
-      <h>63</h>
+      <x>828</x>
+      <y>540</y>
+      <w>279</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>CompanyReportPublisher
 --
@@ -89,27 +92,24 @@ produce()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>595</y>
-      <w>210</w>
-      <h>84</h>
+      <x>666</x>
+      <y>729</y>
+      <w>270</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 Consumer
 --
-topic: String
-relevanteTopics: List&lt;String&gt;
---
-update()</panel_attributes>
+/update(topic: String, reportId: Report)/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>462</y>
-      <w>84</w>
-      <h>28</h>
+      <x>306</x>
+      <y>558</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Main</panel_attributes>
     <additional_attributes/>
@@ -117,32 +117,21 @@ update()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>91</y>
-      <w>133</w>
-      <h>63</h>
+      <x>792</x>
+      <y>81</y>
+      <w>180</w>
+      <h>81</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>170.0;10.0;170.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>658</x>
-      <y>91</y>
-      <w>140</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0;180.0;40.0;180.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>553</x>
-      <y>371</y>
-      <w>133</w>
-      <h>91</h>
+      <x>657</x>
+      <y>441</y>
+      <w>171</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>170.0;10.0;170.0;60.0;10.0;60.0;10.0;110.0</additional_attributes>
@@ -150,10 +139,10 @@ update()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>371</y>
-      <w>140</w>
-      <h>91</h>
+      <x>801</x>
+      <y>441</y>
+      <w>180</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0;180.0;60.0;180.0;110.0</additional_attributes>
@@ -161,22 +150,22 @@ update()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
-      <y>182</y>
-      <w>70</w>
-      <h>280</h>
+      <x>621</x>
+      <y>216</y>
+      <w>72</w>
+      <h>342</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 erzeugt</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;380.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;360.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>812</x>
-      <y>154</y>
-      <w>70</w>
-      <h>308</h>
+      <x>990</x>
+      <y>162</y>
+      <w>72</w>
+      <h>396</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 erzeugt</panel_attributes>
@@ -185,10 +174,10 @@ erzeugt</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>77</y>
-      <w>252</w>
-      <h>560</h>
+      <x>846</x>
+      <y>63</y>
+      <w>324</w>
+      <h>720</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 r2=bezieht bei Bedarf</panel_attributes>
@@ -197,34 +186,34 @@ r2=bezieht bei Bedarf</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>504</y>
-      <w>112</w>
-      <h>245</h>
+      <x>576</x>
+      <y>612</y>
+      <w>72</w>
+      <h>315</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.
-m2=benachrichtigt\nregistrierte</panel_attributes>
+    <panel_attributes>lt=.&gt;
+m2=bezieht\nReport</panel_attributes>
     <additional_attributes>10.0;330.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>504</y>
-      <w>112</w>
-      <h>245</h>
+      <x>999</x>
+      <y>612</y>
+      <w>72</w>
+      <h>315</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.
-m2=benachrichtigt\nregistrierte</panel_attributes>
+    <panel_attributes>lt=.&gt;
+m2=bezieht\nReport</panel_attributes>
     <additional_attributes>10.0;330.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>329</x>
-      <y>483</y>
-      <w>245</w>
-      <h>154</h>
+      <x>369</x>
+      <y>585</y>
+      <w>315</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>330.0;200.0;10.0;200.0;10.0;10.0</additional_attributes>
@@ -232,10 +221,10 @@ m2=benachrichtigt\nregistrierte</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>329</x>
-      <y>350</y>
-      <w>280</w>
-      <h>126</h>
+      <x>369</x>
+      <y>414</y>
+      <w>360</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 registriert/deregistriert
@@ -245,26 +234,25 @@ Consumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>735</y>
-      <w>210</w>
-      <h>70</h>
+      <x>450</x>
+      <y>909</y>
+      <w>270</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>SkillConsumer
 --
-topic: String
-relevanteTopics: List&lt;String&gt;
+skills: List&lt;String&gt;
 --
-update()</panel_attributes>
+update(topic: String, reportID: Integer)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>756</x>
-      <y>735</y>
-      <w>126</w>
-      <h>28</h>
+      <x>918</x>
+      <y>909</y>
+      <w>162</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>CompanyConsumer</panel_attributes>
     <additional_attributes/>
@@ -272,23 +260,70 @@ update()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>672</y>
-      <w>133</w>
-      <h>77</h>
+      <x>648</x>
+      <y>828</y>
+      <w>171</w>
+      <h>99</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>170.0;10.0;170.0;50.0;10.0;50.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>658</x>
-      <y>672</y>
-      <w>140</w>
-      <h>77</h>
+      <x>792</x>
+      <y>828</y>
+      <w>180</w>
+      <h>99</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0;180.0;50.0;180.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>81</y>
+      <w>171</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>927</x>
+      <y>405</y>
+      <w>351</w>
+      <h>423</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+r2=0...n</panel_attributes>
+    <additional_attributes>20.0;10.0;370.0;10.0;370.0;450.0;10.0;450.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>153</y>
+      <w>378</w>
+      <h>792</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+r1=bezieht\nReport</panel_attributes>
+    <additional_attributes>240.0;860.0;10.0;860.0;10.0;10.0;400.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1008</x>
+      <y>153</y>
+      <w>315</w>
+      <h>792</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+r1=bezieht\nReport</panel_attributes>
+    <additional_attributes>80.0;860.0;330.0;860.0;330.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
