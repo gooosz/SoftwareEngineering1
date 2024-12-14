@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>341</x>
-      <y>44</y>
+      <x>220</x>
+      <y>22</y>
       <w>110</w>
       <h>33</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>550</x>
-      <y>110</y>
+      <x>429</x>
+      <y>88</y>
       <w>165</w>
       <h>33</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>770</x>
-      <y>44</y>
+      <x>649</x>
+      <y>22</y>
       <w>242</w>
       <h>33</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>132</y>
+      <x>495</x>
+      <y>110</y>
       <w>33</w>
       <h>847</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>66</y>
+      <x>759</x>
+      <y>44</y>
       <w>33</w>
       <h>946</h>
     </coordinates>
@@ -59,8 +59,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>66</y>
+      <x>264</x>
+      <y>44</y>
       <w>33</w>
       <h>946</h>
     </coordinates>
@@ -70,8 +70,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>110</y>
+      <x>264</x>
+      <y>88</y>
       <w>187</w>
       <h>44</h>
     </coordinates>
@@ -82,8 +82,8 @@ new()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>187</y>
+      <x>264</x>
+      <y>165</y>
       <w>528</w>
       <h>44</h>
     </coordinates>
@@ -94,8 +94,8 @@ registriere(c: Consumer)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1265</x>
-      <y>319</y>
+      <x>1144</x>
+      <y>297</y>
       <w>165</w>
       <h>33</h>
     </coordinates>
@@ -105,8 +105,8 @@ registriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1342</x>
-      <y>341</y>
+      <x>1221</x>
+      <y>319</y>
       <w>33</w>
       <h>671</h>
     </coordinates>
@@ -116,8 +116,8 @@ registriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>286</y>
+      <x>264</x>
+      <y>264</y>
       <w>528</w>
       <h>44</h>
     </coordinates>
@@ -128,20 +128,20 @@ produce</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>319</y>
-      <w>407</w>
+      <x>726</x>
+      <y>297</y>
+      <w>473</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 new(studentID=17, reportID=1, skill="Java")</panel_attributes>
-    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>380.0;20.0;40.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>671</x>
-      <y>968</y>
+      <x>550</x>
+      <y>946</y>
       <w>792</w>
       <h>176</h>
     </coordinates>
@@ -153,8 +153,8 @@ new(studentID=17, reportID=1, skill="Java")</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>682</x>
-      <y>1023</y>
+      <x>561</x>
+      <y>1001</y>
       <w>297</w>
       <h>44</h>
     </coordinates>
@@ -165,8 +165,8 @@ update</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>506</y>
+      <x>495</x>
+      <y>484</y>
       <w>297</w>
       <h>44</h>
     </coordinates>
@@ -177,8 +177,8 @@ getReport(1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>858</y>
+      <x>264</x>
+      <y>836</y>
       <w>528</w>
       <h>44</h>
     </coordinates>
@@ -189,8 +189,8 @@ deregistriere(c: Consumer)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>616</x>
-      <y>957</y>
+      <x>495</x>
+      <y>935</y>
       <w>22</w>
       <h>22</h>
     </coordinates>
@@ -200,8 +200,8 @@ deregistriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>220</y>
+      <x>264</x>
+      <y>198</y>
       <w>528</w>
       <h>33</h>
     </coordinates>
@@ -211,8 +211,8 @@ deregistriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>715</y>
+      <x>264</x>
+      <y>693</y>
       <w>528</w>
       <h>33</h>
     </coordinates>
@@ -222,8 +222,8 @@ deregistriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>385</x>
-      <y>891</y>
+      <x>264</x>
+      <y>869</y>
       <w>528</w>
       <h>33</h>
     </coordinates>
@@ -233,9 +233,9 @@ deregistriere(c: Consumer)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>374</y>
-      <w>220</w>
+      <x>759</x>
+      <y>352</y>
+      <w>275</w>
       <h>66</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
@@ -245,8 +245,8 @@ notify(1, "Java")</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>451</y>
+      <x>495</x>
+      <y>429</y>
       <w>297</w>
       <h>44</h>
     </coordinates>
@@ -257,8 +257,8 @@ update(1, "Java")</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>539</y>
+      <x>495</x>
+      <y>517</y>
       <w>297</w>
       <h>44</h>
     </coordinates>
@@ -269,8 +269,8 @@ return s</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>605</y>
+      <x>495</x>
+      <y>583</y>
       <w>297</w>
       <h>33</h>
     </coordinates>
@@ -280,12 +280,12 @@ return s</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>649</y>
+      <x>759</x>
+      <y>627</y>
       <w>99</w>
       <h>66</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;40.0;70.0;40.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

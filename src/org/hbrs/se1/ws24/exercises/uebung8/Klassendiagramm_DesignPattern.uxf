@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>558</x>
+      <y>135</y>
+      <w>387</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;boundary&gt;&gt;
+ReiseAnbieter
+--
++ executeQuery(d: QueryObject): QueryResult</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>693</y>
+      <w>369</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;control&gt;&gt;
+Hotelsuche
+--
+sucheHotels(s: SuchAuftrag): SuchErgebnis</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>828</x>
+      <y>405</y>
+      <w>171</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;dto&gt;&gt;
+SuchAuftrag
+--
+land: String
+ort: String
+datum: String
+--
+getLand(): String
+getOrt(): String
+getDatum(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>585</y>
+      <w>234</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;dto&gt;&gt;
+SuchErgebnis
+--
+liste: List&lt;Hotel&gt;
+--
+getErgebnis(): List&lt;Hotel&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>162</x>
+      <y>54</y>
+      <w>252</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Adapter-Pattern
+um das Interface
+mit inkompatiblen Parametern
+zu verwenden</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>567</y>
+      <w>198</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>200.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>477</y>
+      <w>216</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>306</y>
+      <w>486</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;boundary&gt;&gt;
+SucheToQueryAdapter
+--
+r: ReiseAnbieter
+suchAuftragToQueryObject(s: SuchAuftrag): QueryObject
+queryResultToSuchErgebnis(q: QueryResult): SuchErgebnis
+--
+sucheHotels(s: SuchAuftrag): SuchErgebnis</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>522</y>
+      <w>369</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Hotelsuche
+--
+sucheHotels(s: SuchAuftrag): SuchErgebnis</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>423</y>
+      <w>27</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>585</y>
+      <w>27</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>198</y>
+      <w>270</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>280.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1143</x>
+      <y>603</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Hotel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>621</y>
+      <w>126</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
