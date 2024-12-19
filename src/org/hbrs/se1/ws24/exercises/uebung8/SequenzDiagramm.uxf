@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>7</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>273</x>
-      <y>252</y>
-      <w>84</w>
-      <h>21</h>
+      <x>260</x>
+      <y>120</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_:Hotelsuche_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>266</y>
-      <w>21</w>
-      <h>567</h>
+      <x>310</x>
+      <y>140</y>
+      <w>30</w>
+      <h>810</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;790.0</additional_attributes>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>770</x>
-      <y>252</y>
-      <w>154</w>
-      <h>21</h>
+      <x>970</x>
+      <y>120</y>
+      <w>220</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_:SucheToQueryAdapter_</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1050</x>
-      <y>252</y>
-      <w>112</w>
-      <h>21</h>
+      <x>1370</x>
+      <y>120</y>
+      <w>160</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_:ReiseAnbieter_</panel_attributes>
     <additional_attributes/>
@@ -48,10 +48,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>483</x>
-      <y>308</y>
-      <w>112</w>
-      <h>21</h>
+      <x>560</x>
+      <y>200</y>
+      <w>160</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_s:SuchAuftrag_</panel_attributes>
     <additional_attributes/>
@@ -59,10 +59,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>630</x>
-      <y>623</y>
-      <w>112</w>
-      <h>21</h>
+      <x>770</x>
+      <y>650</y>
+      <w>160</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_e:SuchErgebnis_</panel_attributes>
     <additional_attributes/>
@@ -70,10 +70,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>266</y>
-      <w>21</w>
-      <h>567</h>
+      <x>1070</x>
+      <y>140</y>
+      <w>30</w>
+      <h>810</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;790.0</additional_attributes>
@@ -81,10 +81,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1099</x>
-      <y>266</y>
-      <w>21</w>
-      <h>567</h>
+      <x>1440</x>
+      <y>140</y>
+      <w>30</w>
+      <h>810</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;790.0</additional_attributes>
@@ -92,10 +92,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>532</x>
-      <y>322</y>
-      <w>21</w>
-      <h>511</h>
+      <x>630</x>
+      <y>220</y>
+      <w>30</w>
+      <h>730</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;710.0</additional_attributes>
@@ -103,10 +103,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>679</x>
-      <y>637</y>
-      <w>21</w>
-      <h>196</h>
+      <x>840</x>
+      <y>670</y>
+      <w>30</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;260.0</additional_attributes>
@@ -114,12 +114,12 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>308</y>
-      <w>189</w>
-      <h>49</h>
+      <x>310</x>
+      <y>200</y>
+      <w>270</w>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;.
 new("USA",
 	"New York City",
 	"15.1.25")</panel_attributes>
@@ -128,34 +128,34 @@ new("USA",
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>357</y>
-      <w>553</w>
-      <h>28</h>
+      <x>310</x>
+      <y>270</y>
+      <w>790</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 sucheHotels(s)</panel_attributes>
     <additional_attributes>770.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>399</y>
-      <w>238</w>
-      <h>49</h>
+      <x>1070</x>
+      <y>330</y>
+      <w>290</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 suchAuftragToQueryObject(s)</panel_attributes>
     <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>448</y>
-      <w>189</w>
-      <h>49</h>
+      <x>1070</x>
+      <y>400</y>
+      <w>230</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 return q:QueryObject</panel_attributes>
@@ -164,22 +164,22 @@ return q:QueryObject</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>511</y>
-      <w>280</w>
-      <h>28</h>
+      <x>1070</x>
+      <y>490</y>
+      <w>400</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 executeQuery(q)</panel_attributes>
     <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>539</y>
-      <w>280</w>
-      <h>28</h>
+      <x>1070</x>
+      <y>530</y>
+      <w>400</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 return r:queryResult</panel_attributes>
@@ -188,22 +188,22 @@ return r:queryResult</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>581</y>
-      <w>245</w>
-      <h>49</h>
+      <x>1070</x>
+      <y>590</y>
+      <w>290</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 queryResultToSuchErgebnis(r)</panel_attributes>
     <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>651</y>
-      <w>112</w>
-      <h>49</h>
+      <x>1070</x>
+      <y>690</y>
+      <w>140</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 return e</panel_attributes>
@@ -212,22 +212,22 @@ return e</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>735</x>
-      <y>623</y>
-      <w>126</w>
-      <h>28</h>
+      <x>920</x>
+      <y>650</y>
+      <w>180</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
+    <panel_attributes>lt=&lt;.
 new()</panel_attributes>
     <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>700</y>
-      <w>553</w>
-      <h>28</h>
+      <x>310</x>
+      <y>760</y>
+      <w>790</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 return e</panel_attributes>

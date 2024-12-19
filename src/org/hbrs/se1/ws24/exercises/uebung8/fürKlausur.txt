@@ -1,0 +1,18 @@
+- Design Patterns können: wann anwenden, wie anwenden
+=> von jedem Pattern wie sieht UML aus (wie implementiert man)
+
+UML Methoden access modifier:
++ public
+~ package (default)
+# protected
+- private
+
+durchgezogener Pfeil: hält Object
+
+Sequenzdiagramm Pfeile:
+- durchgezogener Pfeil:
+		- offene Pfeilspitze (ohne waagerechte): asynchrone Nachricht
+		- volle/geschlossene Pfeilspitze: synchrone Nachricht
+- gestrichelter Pfeil offene Spitze: return/Antwor (egal ob synchron/asynchron)
+
+zum IN-Layer gehören alle bereitgestellten Sachen z.B. Java Stdlib Sachen
