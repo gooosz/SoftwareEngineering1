@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>270</y>
+      <w>570</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;dto&gt;&gt;
+BuchungDAO
+--
+-buchungen: List&lt;Buchung&gt;
+--
+~createBuchung(reiseZiel: String, datum: String): Buchung
+~readBuchung(id: String): Buchung
+~updateBuchung(b: Buchung)
+~deleteBuchung(id: String)
+getAllBuchungen(): List&lt;Buchung&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>290</y>
+      <w>240</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Buchung
+--
+-reiseZiel: String
+-datum: String
+--
+getReiseZiel(): String
+getDatum(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>290</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+r2=0...n</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+</diagram>

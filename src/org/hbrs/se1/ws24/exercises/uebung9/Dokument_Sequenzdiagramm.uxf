@@ -133,7 +133,7 @@ new</panel_attributes>
       <w>252</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 addDocument(doc5)</panel_attributes>
     <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -145,7 +145,7 @@ addDocument(doc5)</panel_attributes>
       <w>252</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 addDocument(doc4)</panel_attributes>
     <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -179,7 +179,7 @@ addDocument(doc4)</panel_attributes>
       <w>252</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 getGroesse</panel_attributes>
     <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -203,7 +203,7 @@ return</panel_attributes>
       <w>288</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 getGroesse</panel_attributes>
     <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -227,7 +227,7 @@ return</panel_attributes>
       <w>549</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-
+    <panel_attributes>lt=&lt;&lt;&lt;-
 getGroesse</panel_attributes>
     <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
   </element>
