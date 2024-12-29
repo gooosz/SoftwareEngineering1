@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>747</x>
+      <y>216</y>
+      <w>171</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Document
+--
+getGroeße(): Bytes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>540</x>
+      <y>351</y>
+      <w>72</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Leaf
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>603</x>
+      <y>351</y>
+      <w>171</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+CoreDocument
+--
+- id: Integer
+--
+getID(): Integer
+setID(id: Integer)
+/getGroeße(): Bytes/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>909</x>
+      <y>342</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Composite
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>351</y>
+      <w>243</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>ComplexDocument
+--
+-docs: List&lt;Document&gt;
+--
+addDocument(d: Document)
+removeDocument(d: Document)
+getGroeße(): Bytes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>909</x>
+      <y>225</y>
+      <w>234</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+r2=0...n</panel_attributes>
+    <additional_attributes>240.0;140.0;240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>279</y>
+      <w>162</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>160.0;10.0;160.0;60.0;10.0;60.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>819</x>
+      <y>279</y>
+      <w>243</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;250.0;60.0;250.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>261</x>
+      <y>522</y>
+      <w>378</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>TextDocument
+--
+-inhalt: String
+-enc: Encoding
+--
+TextDocument(inhalt: String, enc: Encoding)
+getGroeße(): Bytes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>522</y>
+      <w>252</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>GraficDocument
+--
+- url: String
+--
+GraficDocument(url: String)
+getGroeße(): Bytes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>459</y>
+      <w>153</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>459</y>
+      <w>117</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;110.0;40.0;110.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>72</x>
+      <y>522</y>
+      <w>126</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumType&gt;&gt;
+Encoding
+--
+UTF8
+UTF32
+UTF16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>531</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+</diagram>

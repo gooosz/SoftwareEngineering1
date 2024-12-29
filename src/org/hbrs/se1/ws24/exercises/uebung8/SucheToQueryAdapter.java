@@ -1,4 +1,4 @@
-package org.bonn.se1.al
+package org.bonn.se1.al;
 
 import org.bonn.se1.externe.reise.*;
 
